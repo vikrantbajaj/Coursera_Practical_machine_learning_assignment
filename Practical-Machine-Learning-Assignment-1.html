@@ -138,8 +138,8 @@ $(document).ready(function () {
 <p>First, we load the training and testing set from the online sources and then split the training set further into training and test sets.</p>
 <pre class="r"><code>library(caret)
 setwd(&quot;~/Projects/R/Coursera-Practical-Machine-Learning-Assignment-1/&quot;)
-trainURL &lt;- &quot;http://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv&quot;
-testURL &lt;- &quot;http://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv&quot;
+trainURL &lt;- &quot;https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv&quot;
+testURL &lt;- &quot;https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv&quot;
 
 training &lt;- read.csv(url(trainURL))
 testing &lt;- read.csv(url(testURL))
